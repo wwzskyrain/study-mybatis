@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="erik.study.mybatis.mapper.generator.dao.SysUserMapper">
+  <resultMap id="BaseResultMap" type="erik.study.mybatis.mapper.generator.domain.SysUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="user_email" jdbcType="VARCHAR" property="userEmail" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="user_info" jdbcType="LONGVARCHAR" property="userInfo" />
+    <result column="head_img" jdbcType="LONGVARBINARY" property="headImg" />
+  </resultMap>
+</mapper>
