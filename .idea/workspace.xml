@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/mapper/SysUserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/test/java/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/test/java/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/dao/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/dao/SysUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/test-classes/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/test-classes/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +81,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountryDaoTest.test_country_example_that_insert_and_query">
+  <component name="RunManager" selected="JUnit.CountryDaoTest.test_country_example_insert_selective">
     <configuration name="ConfigTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-mapper-spring" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConfigTest" />
       <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountryDaoTest.test_country_example_insert_selective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-mapper-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="erik.study.mybatis.mapper.generator.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="erik.study.mybatis.mapper.generator.dao" />
+      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.mapper.generator.dao.CountryDaoTest" />
+      <option name="METHOD_NAME" value="test_country_example_insert_selective" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,21 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysUserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-mapper-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="erik.study.mybatis.mapper.direct.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="erik.study.mybatis.mapper.direct.mapper" />
-      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.mapper.direct.mapper.SysUserMapperTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SysUserMapperTest.test_select_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-mapper-java" />
       <extension name="coverage">
@@ -144,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountryDaoTest.test_country_example_insert_selective" />
         <item itemvalue="JUnit.CountryDaoTest.test_country_example_that_insert_and_query" />
         <item itemvalue="JUnit.ConfigTest.get" />
         <item itemvalue="JUnit.SysUserMapperTest.test_select_by_id" />
         <item itemvalue="JUnit.CountryMapperTest.testSelectOne" />
-        <item itemvalue="JUnit.SysUserMapperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +182,7 @@
       <workItem from="1577112239565" duration="2015000" />
       <workItem from="1577335707286" duration="3056000" />
       <workItem from="1577363955969" duration="4748000" />
-      <workItem from="1577372871675" duration="400000" />
+      <workItem from="1577372871675" duration="1232000" />
     </task>
     <servers />
   </component>
