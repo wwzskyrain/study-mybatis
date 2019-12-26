@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/mybatis-mapper-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/mybatis-mapper-generator/mybatis-mapper-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/mybatis-mapper-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/mapper/CountryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/model/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/model/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/src/main/java/erik.study.mybatis.mapper.common/model/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/config/MybatisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/mapper/CountryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/model/Country.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/model/SysRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-common/target/classes/erik/study/mybatis/mapper/common/model/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-generator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/mybatis-mapper-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/src/main/docs/实践笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/src/test/java/erik/study/mybatis/mapper/direct/mapper/CountryMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/src/test/java/erik/study/mybatis/mapper/direct/mapper/SysUserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/src/test/java/erik/study/mybatis/mapper/direct/mapper/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/target/test-classes/erik/study/mybatis/mapper/direct/mapper/CountryMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/target/test-classes/erik/study/mybatis/mapper/direct/mapper/SysUserMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-java/target/test-classes/erik/study/mybatis/mapper/direct/mapper/TestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/mybatis-mapper-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/java/erik/study/mybatis/mapper/spring/mapper/CountryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/spring-mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/test/java/ConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/test-classes/ConfigTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mybatis-mapper-generator" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VKC1tgaPFcQF97KtRy8rY8edQZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,6 +30,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-mapper-generator/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -82,6 +38,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +167,8 @@
       <workItem from="1577077921661" duration="2124000" />
       <workItem from="1577112239565" duration="2015000" />
       <workItem from="1577335707286" duration="3056000" />
-      <workItem from="1577363955969" duration="4239000" />
+      <workItem from="1577363955969" duration="4748000" />
+      <workItem from="1577372871675" duration="400000" />
     </task>
     <servers />
   </component>
