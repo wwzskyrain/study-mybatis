@@ -19,9 +19,9 @@ import java.io.Reader;
  * @author erik.wang
  * @Date 2019-12-23
  */
-public class ConfigTest {
+public class TestBase {
 
-    private static final Logger logger = LoggerFactory.getLogger(ConfigTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     SqlSessionFactory sqlSessionFactory;
 
@@ -37,7 +37,7 @@ public class ConfigTest {
     }
 
     @Test
-    public void get() {
+    public void test_select_one_by_id_and_code() {
 
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
@@ -45,7 +45,18 @@ public class ConfigTest {
             Country country = countryMapper.selectOneByIdAndCode(2, "US");
             logger.info("country" + country);
         } catch (Exception e) {
-            logger.error("exception:{}",e);
+            logger.error("exception:{}", e);
+            sqlSession.close();
+            Assert.fail();
+        }
+    }
+
+    public void doTest(TestCallBack callBack) {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        try {
+            callBack.doTest(sqlSession);
+        } catch (Exception e) {
+            logger.error("exception:{}", e);
             sqlSession.close();
             Assert.fail();
         }

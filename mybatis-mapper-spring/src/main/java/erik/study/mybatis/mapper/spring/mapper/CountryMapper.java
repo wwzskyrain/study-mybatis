@@ -11,7 +11,12 @@ import org.apache.ibatis.annotations.Select;
  **/
 public interface CountryMapper {
 
-//    @Select(value = "select * from country where id = #{id} and country_code = #{countryCode}")
+    //    @Select(value = "select * from country where id = #{id} and country_code = #{countryCode}")
     Country selectOneByIdAndCode(@Param("id") Integer id, @Param("countryCode") String code);
+
+    Country selectOneById(@Param("id") Integer id);
+
+    void updateById(Country country);
+
 
 }

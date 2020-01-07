@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/CountryMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/TestCallBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" afterDir="false" />
@@ -20,6 +22,12 @@
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-mapper-generator/target/test-classes/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-generator/target/test-classes/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/java/erik/study/mybatis/mapper/spring/mapper/CountryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/java/erik/study/mybatis/mapper/spring/mapper/CountryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/main/resources/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/src/test/java/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-mapper-spring/target/classes/erik/study/mybatis/mapper/spring/mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-mapper-spring/target/test-classes/ConfigTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +57,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3648897" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -81,17 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountryDaoTest.test_country_example_insert_selective">
-    <configuration name="ConfigTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-mapper-spring" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConfigTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CountryMapperTest.test_first_level_cache_flush">
     <configuration name="CountryDaoTest.test_country_example_insert_selective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-mapper-generator" />
       <extension name="coverage">
@@ -108,49 +106,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryDaoTest.test_country_example_that_insert_and_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-mapper-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="erik.study.mybatis.mapper.generator.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="erik.study.mybatis.mapper.generator.dao" />
-      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.mapper.generator.dao.CountryDaoTest" />
-      <option name="METHOD_NAME" value="test_country_example_that_insert_and_query" />
+    <configuration name="CountryMapperTest.test_first_level_cache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-mapper-spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CountryMapperTest" />
+      <option name="METHOD_NAME" value="test_first_level_cache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryMapperTest.testSelectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-mapper-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="erik.study.mybatis.mapper.direct.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="erik.study.mybatis.mapper.direct.mapper" />
-      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.mapper.direct.mapper.CountryMapperTest" />
-      <option name="METHOD_NAME" value="testSelectOne" />
+    <configuration name="CountryMapperTest.test_first_level_cache_flush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-mapper-spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CountryMapperTest" />
+      <option name="METHOD_NAME" value="test_first_level_cache_flush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysUserMapperTest.test_select_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-mapper-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="erik.study.mybatis.mapper.direct.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="erik.study.mybatis.mapper.direct.mapper" />
-      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.mapper.direct.mapper.SysUserMapperTest" />
-      <option name="METHOD_NAME" value="test_select_by_id" />
+    <configuration name="CountryMapperTest.test_query_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-mapper-spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CountryMapperTest" />
+      <option name="METHOD_NAME" value="test_query_by_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountryMapperTest.test_update_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-mapper-spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CountryMapperTest" />
+      <option name="METHOD_NAME" value="test_update_by_id" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountryMapperTest.test_first_level_cache_flush" />
+        <item itemvalue="JUnit.CountryMapperTest.test_first_level_cache" />
+        <item itemvalue="JUnit.CountryMapperTest.test_query_by_id" />
+        <item itemvalue="JUnit.CountryMapperTest.test_update_by_id" />
         <item itemvalue="JUnit.CountryDaoTest.test_country_example_insert_selective" />
-        <item itemvalue="JUnit.CountryDaoTest.test_country_example_that_insert_and_query" />
-        <item itemvalue="JUnit.ConfigTest.get" />
-        <item itemvalue="JUnit.SysUserMapperTest.test_select_by_id" />
-        <item itemvalue="JUnit.CountryMapperTest.testSelectOne" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +172,8 @@
       <workItem from="1577112239565" duration="2015000" />
       <workItem from="1577335707286" duration="3056000" />
       <workItem from="1577363955969" duration="4748000" />
-      <workItem from="1577372871675" duration="1232000" />
+      <workItem from="1577372871675" duration="1441000" />
+      <workItem from="1578319660209" duration="5144000" />
     </task>
     <servers />
   </component>
@@ -221,6 +212,16 @@
           <url>file://$PROJECT_DIR$/mybatis-mapper-generator/src/test/java/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.java</url>
           <line>50</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/CountryMapperTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/CountryMapperTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
