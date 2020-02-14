@@ -2,42 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="mgb学习基本结束">
-      <change afterPath="$PROJECT_DIR$/mybatis-mapper-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/dao/CountryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/CountryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/erik/study/mybatis/mapper/generator/mapper/SysUserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/dao/CountryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/dao/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/Country.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/CountryExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/CountryExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/CountryExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/CountryExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/erik/study/mybatis/mapper/generator/domain/SysUserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CountryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mybatis-mapper-generator-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/dao/CountryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/CountryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erik/study/mybatis/mapper/generator/domain/SysUserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/erik/study/mybatis/mapper/generator/dao/CountryDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/erik/study/mybatis/mapper/generator/mapper/SysUserMapperTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis-mapper-java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -219,56 +197,6 @@
               <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mapper-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -283,7 +211,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581643208528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581643412445" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -408,7 +336,7 @@
       <workItem from="1577372871675" duration="1441000" />
       <workItem from="1578319660209" duration="5264000" />
       <workItem from="1581324928049" duration="11521000" />
-      <workItem from="1581511620986" duration="6659000" />
+      <workItem from="1581511620986" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="mgb学习基本结束">
       <created>1581642616699</created>
@@ -428,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18180000" />
+    <option name="totallyTimeSpent" value="18383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-322" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -450,10 +378,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32953367" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32953367" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.53367877" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.53367877" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -668,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
