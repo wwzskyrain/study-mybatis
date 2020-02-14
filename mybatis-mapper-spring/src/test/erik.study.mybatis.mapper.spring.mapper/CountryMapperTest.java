@@ -1,5 +1,6 @@
+package erik.study.mybatis.mapper.spring.mapper;
+
 import erik.study.mybatis.mapper.common.model.Country;
-import erik.study.mybatis.mapper.spring.mapper.CountryMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
@@ -12,7 +13,8 @@ import org.slf4j.LoggerFactory;
  */
 public class CountryMapperTest extends TestBase {
 
-    private static final Logger logger = LoggerFactory.getLogger(TestBase.class);
+    private static final Logger logger = LoggerFactory.getLogger(CountryMapperTest.class);
+
 
     @Test
     public void test_query_by_id() {
@@ -92,6 +94,21 @@ public class CountryMapperTest extends TestBase {
             logger.info("firstCountry hasCode:{}, secondCountry hashCode:{}",
                     firstCountry.hashCode(), secondCountry.hashCode());
         });
+    }
+
+    @Test
+    public void test_select_one_by_id_and_code() {
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        try {
+            CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
+            Country country = countryMapper.selectOneByIdAndCode(2, "US");
+            logger.info("country" + country);
+        } catch (Exception e) {
+            logger.error("exception:{}", e);
+            sqlSession.close();
+            Assert.fail();
+        }
     }
 
 

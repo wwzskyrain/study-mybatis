@@ -1,3 +1,4 @@
+package erik.study.mybatis.mapper.spring.mapper;
 
 import erik.study.mybatis.mapper.common.model.Country;
 import erik.study.mybatis.mapper.spring.mapper.CountryMapper;
@@ -36,20 +37,6 @@ public class TestBase {
         }
     }
 
-    @Test
-    public void test_select_one_by_id_and_code() {
-
-        SqlSession sqlSession = sqlSessionFactory.openSession();
-        try {
-            CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
-            Country country = countryMapper.selectOneByIdAndCode(2, "US");
-            logger.info("country" + country);
-        } catch (Exception e) {
-            logger.error("exception:{}", e);
-            sqlSession.close();
-            Assert.fail();
-        }
-    }
 
     public void doTest(TestCallBack callBack) {
         SqlSession sqlSession = sqlSessionFactory.openSession();

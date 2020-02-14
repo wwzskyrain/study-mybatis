@@ -1,3 +1,5 @@
+package erik.study.mybatis.mapper.spring.mapper;
+
 import org.apache.ibatis.session.SqlSession;
 import tk.mybatis.mapper.common.Mapper;
 

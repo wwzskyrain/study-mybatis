@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>mybatis-mapper-java</module>
         <module>mybatis-mapper-spring</module>
         <module>mybatis-mapper-common</module>
         <module>mybatis-mapper-generator</module>

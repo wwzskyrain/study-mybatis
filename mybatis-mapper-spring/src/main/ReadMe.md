@@ -15,5 +15,3 @@
         <!-- 升级到8.0.16版本，因为mysql服务器的版本升级到了8.x，其认证方法改成了caching_sha2_password -->
     </dependency>
     ```  
- 
-# 2.通用mapper的使用
