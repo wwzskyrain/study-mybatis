@@ -2,8 +2,9 @@ package erik.study.mybatis.mapper.generator.dao;
 
 import erik.study.mybatis.mapper.generator.domain.Country;
 import erik.study.mybatis.mapper.generator.domain.CountryExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CountryMapper {
     /**
