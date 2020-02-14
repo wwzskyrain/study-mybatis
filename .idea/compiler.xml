@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-mapper-spring" />
-        <module name="mybatis-mapper-java" />
         <module name="mybatis-mapper-generator" />
+        <module name="mybatis-mapper-generator (2)" />
+        <module name="mybatis-mapper-java" />
+        <module name="mybatis-mapper-spring" />
       </profile>
     </annotationProcessing>
   </component>
