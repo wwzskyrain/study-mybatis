@@ -19,18 +19,21 @@
                         password="erik">
         </jdbcConnection>
 
+        <!--    这三个targetProject的当前路径都是模块路径，即'(总项目路径)/study-mybatis/mybatis-mapper-generator    -->
+        <!-- model -->
         <javaModelGenerator targetPackage="erik.study.mybatis.mapper.generator.domain"
                             targetProject="../mybatis-mapper-generator/src/main/java"/>
 
+        <!-- mapper.xml -->
         <sqlMapGenerator targetPackage="mapper"
                          targetProject="src/main/resources"/>
-        <!--    这三个targetProject的当前路径都是模块路径，即'(总项目路径)/study-mybatis/mybatis-mapper-generator    -->
 
-        <javaClientGenerator targetPackage="erik.study.mybatis.mapper.generator.dao"
+        <!-- interface mapper.java -->
+        <javaClientGenerator targetPackage="erik.study.mybatis.mapper.generator.mapper"
                              targetProject="../mybatis-mapper-generator/src/main/java"
                              type="XMLMAPPER"/>
 
-        <table tableName="country">
+        <table tableName="sys_user">
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>

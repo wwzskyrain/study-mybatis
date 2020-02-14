@@ -15,8 +15,8 @@
         </environment>
     </environments>
     <mappers>
-        <!--        <package name="erik.study.mybatis.mapper.generator.mapper"/>-->
-        <!--        <mapper resource="erik/study/mybatis/mapper/generator/mapper/CountryMapper.xml"/>-->
+        <!--    还不会配置package，不过*Mapper.xml文件肯定要放在resources中的，至少不能放java类文件下    -->
         <mapper resource="mapper/CountryMapper.xml"/>
+        <mapper resource="mapper/SysUserMapper.xml"/>
     </mappers>
 </configuration>

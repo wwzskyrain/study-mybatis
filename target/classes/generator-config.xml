@@ -7,11 +7,11 @@
 
     <context id="Mysql" targetRuntime="MyBatis3" defaultModelType="flat">
 
-<!--        <plugin type="org.mybatis.generator.MapperPlugin">-->
-<!--            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>-->
-<!--            &lt;!&ndash; caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true &ndash;&gt;-->
-<!--            <property name="caseSensitive" value="true"/>-->
-<!--        </plugin>-->
+        <!--        <plugin type="org.mybatis.generator.MapperPlugin">-->
+        <!--            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>-->
+        <!--            &lt;!&ndash; caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true &ndash;&gt;-->
+        <!--            <property name="caseSensitive" value="true"/>-->
+        <!--        </plugin>-->
 
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/mybatis"
@@ -24,12 +24,13 @@
 
         <sqlMapGenerator targetPackage="mapper"
                          targetProject="src/main/resources"/>
+        <!--    这三个targetProject的当前路径都是模块路径，即'(总项目路径)/study-mybatis/mybatis-mapper-generator    -->
 
         <javaClientGenerator targetPackage="erik.study.mybatis.mapper.generator.dao"
                              targetProject="../mybatis-mapper-generator/src/main/java"
                              type="XMLMAPPER"/>
 
-        <table tableName="country">
+        <table tableName="sys_user">
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>

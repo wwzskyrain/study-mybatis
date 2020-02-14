@@ -58,4 +58,41 @@ public class CountryDaoTest {
         }
     }
 
+    @Test
+    public void test_country_example_insert_selective() {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        try {
+            CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
+
+            Country countryRecord = new Country();
+            countryRecord.setCountryCode("JP");
+            countryMapper.insertSelective(countryRecord);
+
+            Country foundCountry = countryMapper.selectByPrimaryKey(countryRecord.getId());
+            Assert.assertNotNull(foundCountry);
+            Assert.assertEquals(foundCountry.getId(), countryRecord.getId());
+            Assert.assertEquals(foundCountry.getCountryCode(), countryRecord.getCountryCode());
+
+        } catch (Exception e) {
+            logger.error("exception occurs, ", e);
+        }
+    }
+
+    @Test
+    public void test_country_example_query() {
+//  用生成的代码，来完成update，我就不测了。看方法名就很好懂
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        try {
+            CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
+
+            countryMapper.updateByExample(null, null);
+            countryMapper.updateByExampleSelective(null, null);
+
+            countryMapper.updateByPrimaryKey(null);
+            countryMapper.updateByPrimaryKeySelective(null);
+        } catch (Exception e) {
+            logger.error("exception occurs, ", e);
+        }
+    }
+
 }
