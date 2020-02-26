@@ -1,12 +1,16 @@
 package erik.study.mybatis.mapper.spring.mapper;
 
+<<<<<<< HEAD:src/test/java/erik/study/mybatis/mapper/generator/mapper/SysUserMapperTest.java
+import erik.study.mybatis.mapper.generator.dao.CountryMapper;
+import erik.study.mybatis.mapper.generator.domain.SysUser;
+=======
 import erik.study.mybatis.mapper.common.model.Country;
 import erik.study.mybatis.mapper.spring.mapper.CountryMapper;
+>>>>>>> ebf03bb6fa56a84efaa36e7f9033bb10bc533dc1:mybatis-mapper-spring/src/test/erik.study.mybatis.mapper.spring.mapper/TestBase.java
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
