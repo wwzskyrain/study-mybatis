@@ -7,9 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-common-mapper-generator" />
-        <module name="mybatis-mapper-common" />
         <module name="mybatis-mapper-generator" />
-        <module name="mybatis-mapper-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
