@@ -12,6 +12,7 @@
     <modules>
         <module>mybatis-mapper-generator</module>
         <module>mybatis-common-mapper-generator</module>
+        <module>mybatis-base-use-xml-config</module>
     </modules>
 
     <properties>

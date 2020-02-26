@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="erik.study.mybatis.base.use.xml.config.mapper.CountryMapper">
+
+    <select id="selectAll" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select id, country_name as countryName, country_code as countryCode
+        from country
+    </select>
+
+    <select id="selectOneWithoutParam" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select *
+        from country
+        where id = 1
+    </select>
+
+    <select id="selectById" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select id, country_name as countryName, country_code as countryCode
+        from country
+        where id = #{id}
+    </select>
+
+    <select id="selectOneByIdAndCodeWithList" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select *
+        from country
+        where id = #{0}
+        and countrycode = #{1}
+    </select>
+
+    <select id="selectOneByIdAndCodeWithMap" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select *
+        from country
+        where id = #{id}
+        and countrycode = #{countrycode}
+    </select>
+
+    <select id="selectOneByIdAndCode" resultType="erik.study.mybatis.base.use.xml.config.entity.Country">
+        select *
+        from country
+        where id = #{id}
+        and countrycode = #{countrycode}
+    </select>
+
+</mapper>

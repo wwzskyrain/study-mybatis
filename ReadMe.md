@@ -11,9 +11,11 @@
 3.  数据、运行、调试，都要准备好
 
 该项目主要用于对mybatis的使用实践，主要课题包括
-1.  mybatis的基础使用
+1.  mybatis基础使用
+    mybatis基础使用之"xml配置形式"
+    mybatis基础使用之"注解配置形式"
+3.  mybatis和spring的集成使用
 2.  mybatis的generator使用方式
-3.  mybatis和spring的继承使用
 4.  mybatis的通用mapper的使用方式
   
 # 2.

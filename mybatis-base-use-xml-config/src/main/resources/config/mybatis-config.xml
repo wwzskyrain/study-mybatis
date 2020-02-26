@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+        <setting name="cacheEnabled" value="false"/>
+    </settings>
+
+    <typeAliases>
+        <package name="tk.mybatis.simple.model"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC">
+                <property name="" value=""/>
+            </transactionManager>
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis"/>
+                <property name="username" value="root"/>
+                <property name="password" value="erik"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!-- 这里有两种配置，
+            1.一个一个的XXXmapper.xml列出来，
+            2.<package name="erik.study.mybatis.base.use.xml.config.mapper"/>
+              这样有个要求，就是name要和xml文件的路径对应。不赞成这种做法。
+                -->
+        <mapper resource="mapper/CountryMapper.xml"/>
+        <mapper resource="mapper/SysUserMapper.xml"/>
+
+        <package name="erik.study.mybatis.base.use.xml.config.mapper"/>
+
+    </mappers>
+</configuration>
