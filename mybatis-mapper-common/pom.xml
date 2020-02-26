@@ -11,12 +11,7 @@
 
     <groupId>erik.study.mybatis</groupId>
     <artifactId>mybatis-mapper-common</artifactId>
-    <packaging>pom</packaging>
     <version>1.0.0</version>
-    <modules>
-        <module>mybatis-mapper-generator</module>
-    </modules>
-
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <context id="Mysql" targetRuntime="MyBatis3" defaultModelType="flat">
+
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="useMapperCommentGenerator" value="false"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <property name="caseSensitive" value="true"/>
+            <property name="forceAnnotation" value="true"/>
+            <property name="beginningDelimiter" value="`"/>
+            <property name="endingDelimiter" value="`"/>
+        </plugin>
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/mybatis"
+                        userId="root"
+                        password="erik">
+        </jdbcConnection>
+
+        <!--    这三个targetProject的当前路径都是模块路径，即'(总项目路径)/study-mybatis/mybatis-mapper-generator    -->
+        <!-- model -->
+        <javaModelGenerator targetPackage="erik.study.mybatis.mapper.generator.domain"
+                            targetProject="../mybatis-common-mapper-generator/src/main/java"/>
+
+        <!-- mapper.xml -->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="src/main/resources"/>
+
+        <!-- interface mapper.java -->
+        <javaClientGenerator targetPackage="erik.study.mybatis.mapper.generator.mapper"
+                             targetProject="../mybatis-common-mapper-generator/src/main/java"
+                             type="XMLMAPPER"/>
+
+        <table tableName="country">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>
