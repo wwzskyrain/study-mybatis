@@ -10,9 +10,18 @@
         <module name="mybatis-mapper-generator (2)" />
         <module name="mybatis-mapper-spring" />
       </profile>
+      <profile name="Annotation profile for study-mybatis" enabled="true">
+        <sourceOutputDir name="mybatis-mapper-generator/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="mybatis-mapper-generator/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study-mybatis" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis-mapper-common (1)" target="1.8" />
+      <module name="mybatis-mapper-generator (3)" target="1.8" />
       <module name="mybatis-mapper-java" target="1.8" />
+      <module name="mybatis-mapper-spring (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
