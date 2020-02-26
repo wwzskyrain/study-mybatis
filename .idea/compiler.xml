@@ -9,15 +9,15 @@
         <module name="mybatis-common-mapper-generator" />
         <module name="mybatis-mapper-common" />
         <module name="mybatis-mapper-generator" />
-        <module name="mybatis-mapper-generator (2)" />
         <module name="mybatis-mapper-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mybatis-mapper-common (1)" target="1.8" />
-      <module name="mybatis-mapper-generator (3)" target="1.8" />
-      <module name="mybatis-mapper-java" target="1.8" />
-      <module name="mybatis-mapper-spring (1)" target="1.8" />
+      <module name="mybatis-common-mapper-generator" target="1.8" />
+      <module name="mybatis-mapper-common" target="1.8" />
+      <module name="mybatis-mapper-generator" target="1.8" />
+      <module name="mybatis-mapper-spring" target="1.8" />
+      <module name="study-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
