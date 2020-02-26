@@ -1,14 +1,11 @@
 package erik.study.mybatis.mapper.generator.mapper;
 
-import erik.study.mybatis.mapper.generator.dao.CountryDaoTest;
 import erik.study.mybatis.mapper.generator.dao.CountryMapper;
-import erik.study.mybatis.mapper.generator.domain.Country;
 import erik.study.mybatis.mapper.generator.domain.SysUser;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
