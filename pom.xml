@@ -13,12 +13,16 @@
         <module>mybatis-mapper-generator</module>
         <module>mybatis-common-mapper-generator</module>
         <module>mybatis-base-use-xml-config</module>
+        <module>mybatis-base-use-annotion-config</module>
+        <module>mybatis-integration-spring</module>
+        <module>mybatis-integration-spring-boot</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <spring.boot.version>2.2.4.RELEASE</spring.boot.version>
     </properties>
 
     <dependencyManagement>
@@ -71,6 +75,23 @@
                 <version>8.0.16</version>
                 <!-- 升级到8.0.16版本，因为mysql服务器的版本升级到了8.x，其认证方法改成了caching_sha2_password -->
             </dependency>
+
+            <!-- mybatis-spring mybatis与spring集成 -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>2.0.3</version>
+            </dependency>
+
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

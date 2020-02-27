@@ -27,15 +27,7 @@
     </environments>
 
     <mappers>
-        <!-- 这里有两种配置，
-            1.一个一个的XXXmapper.xml列出来，
-            2.<package name="erik.study.mybatis.base.use.xml.config.mapper"/>
-              这样有个要求，就是name要和xml文件的路径对应。不赞成这种做法。
-                -->
-        <mapper resource="mapper/CountryMapper.xml"/>
-        <mapper resource="mapper/SysUserMapper.xml"/>  <!-- 文件路径 -->
-
-        <!--<package name="erik.study.mybatis.base.use.xml.config.mapper"/>-->
-
+        <!-- 用注解形式的配置，那就只能配置 mapper接口了 -->
+        <package name="erik.study.mybatis.base.use.annotation.config.mapper"/>
     </mappers>
 </configuration>
