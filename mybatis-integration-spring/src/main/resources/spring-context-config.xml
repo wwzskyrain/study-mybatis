@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="dataSource" class="org.apache.ibatis.datasource.pooled.PooledDataSource">
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+        <property name="username" value="root"/>
+        <property name="password" value="erik"/>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 既然决定用 注解形式配置sql语句了， 就不需要 mapperLocations，typeAliasesPackage 这两个配置了 -->
+        <!--<property name="mapperLocations">-->
+            <!--<array>-->
+                <!--<value>classpath:tk/mybatis/**/mapper/*.xml</value>-->
+            <!--</array>-->
+        <!--</property>-->
+        <!--<property name="typeAliasesPackage" value="tk.mybatis.web.model"/>-->
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="addToConfig" value="true"/>
+        <property name="basePackage" value="erik.study.mybatis.integration.spring.mapper"/>
+    </bean>
+    
+</beans>
