@@ -14,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
+import javax.annotation.Resource;
 import java.util.Arrays;
 import java.util.List;
 
@@ -27,7 +28,7 @@ public class Starter implements CommandLineRunner {
         System.out.println("Starter over.");
     }
 
-    @Autowired
+    @Resource
     private SysUserMapper sysUserMapper;
 
 //    @Bean

@@ -18,9 +18,13 @@
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis"/>
                 <property name="username" value="root"/>
-                <property name="password" value=""/>
+                <property name="password" value="erik"/>
             </dataSource>
         </environment>
     </environments>
+
+    <mappers>
+        <mapper resource="mapper/CountryMapper.xml"/>
+    </mappers>
 
 </configuration>

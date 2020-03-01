@@ -15,8 +15,10 @@
     mybatis基础使用之"xml配置形式"
     mybatis基础使用之"注解配置形式"
 3.  mybatis和spring的集成使用
-2.  mybatis的generator使用方式
+3.  mybatis和spring-boot集成使用
+2.  mybatis的generator使用方式，简称MBG
 4.  mybatis的通用mapper的使用方式
   
-# 2.
+# 2.总结
+    经过了一个星期的时间，终于把这一块整理好了。以后再也不怕mybatis的使用了。
 
