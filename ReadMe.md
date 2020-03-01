@@ -12,8 +12,8 @@
 
 该项目主要用于对mybatis的使用实践，主要课题包括
 1.  mybatis基础使用
-    mybatis基础使用之"xml配置形式"
-    mybatis基础使用之"注解配置形式"
+    1.  mybatis基础使用之"xml配置形式"
+    2.  mybatis基础使用之"注解配置形式"
 3.  mybatis和spring的集成使用
 3.  mybatis和spring-boot集成使用
 2.  mybatis的generator使用方式，简称MBG

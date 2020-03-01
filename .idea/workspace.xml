@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="mgb学习基本结束">
-      <change afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/test/java/erik/study/mybatis/common/mapper/generator/mapper/CommonMapperUsageWithJavaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/java/erik/study/mybatis/common/mapper/generator/domain/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/java/erik/study/mybatis/common/mapper/generator/domain/CountryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/java/erik/study/mybatis/common/mapper/generator/mapper/CountryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/resources/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/resources/generator-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/src/test/java/erik/study/mybatis/common/mapper/generator/mapper/CountryMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-integration-spring-boot/src/main/java/erik/study/mybatis/integration/spring/boot/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-integration-spring-boot/src/main/java/erik/study/mybatis/integration/spring/boot/Starter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis-mapper-java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="418">
-                <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -298,7 +288,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583038856216" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583039080333" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -459,7 +449,7 @@
       <workItem from="1582729878512" duration="6687000" />
       <workItem from="1582787709758" duration="7000000" />
       <workItem from="1582853161202" duration="4080000" />
-      <workItem from="1583030319764" duration="7258000" />
+      <workItem from="1583030319764" duration="7465000" />
     </task>
     <task id="LOCAL-00001" summary="mgb学习基本结束">
       <created>1581642616699</created>
@@ -511,7 +501,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67205000" />
+    <option name="totallyTimeSpent" value="67412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +514,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,7 +525,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14728682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6217054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15658915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1055,8 +1046,8 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="418">
-            <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
