@@ -3,6 +3,8 @@ package erik.study.mybatis.base.use.xml.config.mapper;
 import erik.study.mybatis.base.use.xml.config.entity.SysUser;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.internal.runners.JUnit4ClassRunner;
+import org.junit.runner.RunWith;
 
 /**
  * @author erik.wang

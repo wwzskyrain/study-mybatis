@@ -23,7 +23,6 @@ public class CountryMapperTest extends TestBase {
         try {
             CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
             List<Country> countries = countryMapper.selectAll();
-
             logger.info("found country:{}", JSON.toJSONString(countries));
             Assert.assertTrue(countries.size() > 0);
         } catch (Exception e) {
