@@ -103,6 +103,12 @@
             <artifactId>spring-test</artifactId>
             <version>5.1.2.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>erik.study.mybatis</groupId>
+            <artifactId>mybatis-base-use-xml-config</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 

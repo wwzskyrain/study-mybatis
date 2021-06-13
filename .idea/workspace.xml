@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab90dc97-44df-44e4-ba2b-5c4cb455a845" name="Default Changelist" comment="mgb学习基本结束">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-base-use-xml-config/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-xml-config/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/main/resources/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/main/resources/config/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/CountryMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/SysUserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/SysUserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-base-use-annotion-config/src/main/resources/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-annotion-config/src/main/resources/config/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-base-use-annotion-config/src/test/java/erik/study/mybatis/base/use/annotation/config/mapper/SysUserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-base-use-annotion-config/src/test/java/erik/study/mybatis/base/use/annotation/config/mapper/SysUserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-common-mapper-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-common-mapper-generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +55,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583124030608" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -92,21 +89,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SysUserMapperTest.test_select_by_id_with_result_map">
-    <configuration name="CommonMapperUsageWithSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-common-mapper-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="erik.study.mybatis.common.mapper.generator.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="erik.study.mybatis.common.mapper.generator.mapper" />
-      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.common.mapper.generator.mapper.CommonMapperUsageWithSpringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisIntegrationSpringBootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-integration-spring-boot" />
       <extension name="coverage">
@@ -153,6 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SysUserMapperTest.test_select_annotation_with_save_column_as_another_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-base-use-annotion-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="erik.study.mybatis.base.use.annotation.config.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="erik.study.mybatis.base.use.annotation.config.mapper" />
+      <option name="MAIN_CLASS_NAME" value="erik.study.mybatis.base.use.annotation.config.mapper.SysUserMapperTest" />
+      <option name="METHOD_NAME" value="test_select_annotation_with_save_column_as_another_name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SysUserMapperTest.test_select_by_id_with_result_map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-base-use-xml-config" />
       <extension name="coverage">
@@ -172,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SysUserMapperTest.test_select_by_id_with_result_map" />
+        <item itemvalue="JUnit.SysUserMapperTest.test_select_annotation_with_save_column_as_another_name" />
         <item itemvalue="JUnit.SysUserMapperTest" />
         <item itemvalue="JUnit.MybatisIntegrationSpringBootTest" />
         <item itemvalue="JUnit.MybatisIntegrationSpringBootTest.test_select_annotation_with_save_column_as_another_name" />
-        <item itemvalue="JUnit.CommonMapperUsageWithSpringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,34 +277,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="mgb学习基本结束" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="291" y="111" key="#SysUserMapperTest.test_select_by_id_with_result_map" timestamp="1610645537631">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1622166824447">
+      <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="291" y="111" key="#SysUserMapperTest.test_select_by_id_with_result_map/0.23.1440.797@0.23.1440.797" timestamp="1610645537631" />
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1610645605556">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1610645605556" />
-    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1610645605555">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1610645605555" />
-    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1610645605554">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1610645605554" />
-    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1610645605555">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1610645605555" />
-    <state x="417" y="178" width="967" height="538" key="find.popup" timestamp="1610645279696">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="417" y="178" width="967" height="538" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1610645279696" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1610645183897">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1610645183897" />
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup/0.23.1440.793@0.23.1440.793" timestamp="1622166824447" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,6 +324,21 @@
           <url>jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/4.0.4/mapper-4.0.4-sources.jar!/tk/mybatis/mapper/mapperhelper/EntityHelper.java</url>
           <line>158</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-base-use-annotion-config/src/test/java/erik/study/mybatis/base/use/annotation/config/mapper/TestBase.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-base-use-annotion-config/src/test/java/erik/study/mybatis/base/use/annotation/config/mapper/SysUserMapperTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-base-use-xml-config/src/test/java/erik/study/mybatis/base/use/xml/config/mapper/SysUserMapperTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -25,6 +25,7 @@ public class SysUserMapperTest extends TestBase {
             Long userId = 1001L;
             SysUser sysUser = sysUserMapper.selectById(userId);
             Assert.assertEquals(sysUser.getId(), userId);
+            logger.info("sysUser={}", JSON.toJSONString(sysUser));
         } finally {
             sqlSession.close();
         }
